@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "page-factory-playwright"
+version = "0.1.0"
+description = ""
+authors = ["Kotamyn <telegram>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest-playwright = "^0.4.3"
+pytest-asyncio = "^0.23.2"
+allure-pytest = "^2.13.2"
+playwright = "^1.40.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
