@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "page-factory-playwright"
+name = "pfp"
 version = "0.1.0"
 description = ""
 authors = ["Kotamyn <telegram>"]
