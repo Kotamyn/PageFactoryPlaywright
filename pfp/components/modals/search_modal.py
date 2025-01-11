@@ -14,7 +14,7 @@ class SearchModal:
             page, locator='#docsearch-input', name='Search docs'
         )
         self.search_result = ListItem(
-            page, locator='#docsearch-item-{result_number}', name='Result item'
+            page, locator='#docsearch-hits0-item-{result_number}', name='Result item'
         )
 
     async def modal_is_opened(self):
